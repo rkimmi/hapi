@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,13 @@
   },
   "homepage": "https://github.com/rkimmi/hapi#readme",
   "dependencies": {
-    "hapi": "^16.0.0",
-    "nodejs": "0.0.0"
+    "hapi": "^17.0.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^1.15.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
   }
 }
