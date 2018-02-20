@@ -29,7 +29,7 @@ server.route({
 
 
 server.start((err) => {
-    if (err){
+    if (err ) {
         throw err
     }
     console.log(`Server started at: ${server.info.url}`)
