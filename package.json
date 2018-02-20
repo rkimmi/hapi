@@ -19,8 +19,7 @@
   "homepage": "https://github.com/rkimmi/hapi#readme",
   "dependencies": {
     "hapi": "^17.0.0",
-    "nodejs": "0.0.0",
-    "nodemon": "^1.15.1"
+    "nodejs": "0.0.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
