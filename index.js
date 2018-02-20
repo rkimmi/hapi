@@ -14,7 +14,7 @@ server.route({
     method: 'GET',
     path: '/',
     handler: (request, reply) => {  // req and res!
-        reply('Hello Hapi World')
+        reply('Hello Hapi World!')
     }
 })
 
@@ -32,5 +32,5 @@ server.start((err) => {
     if (err){
         throw err
     }
-    console.log(`Servers started at: ${server.info.url}`)
+    console.log(`Server started at: ${server.info.url}`)
 })
