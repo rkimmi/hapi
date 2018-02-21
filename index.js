@@ -11,7 +11,7 @@ const server = new Hapi.server({ port: 3000 })
 const start = async () => {
    await server.start()
 }
-// callbacks are gone — async / await promises onl
+// callbacks are gone — async / await promises only
 
 // server.start((err) => {
 //     if (err ) {
@@ -24,7 +24,7 @@ server.route({
     method:'GET',
     path: '/name/{name}',
     handler: function (request) { // no reply
-        return `Hello, ${request.params.name}` 
+        return `Hello, ${request.params.name}` // return only
     }
 })
 
