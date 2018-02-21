@@ -32,5 +32,5 @@ server.start((err) => {
     if (err ) {
         throw err
     }
-    console.log(`Server started at: ${server.info.url}`)
+    console.log(`Server ready!`)
 })
